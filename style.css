@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  background-color: #de8a89;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  padding-left: 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.description {
+  padding-right: 530px;
+  padding-bottom: 50px;
+}
+h1,
+.description {
+  padding-left: 22px;
+}
+.container {
+  display: flex;
+  width: 900px;
+  height: 200px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  width: 200px;
+  height: 100%;
+}
+.card-timer {
+  position: relative;
+  background-color: #3e3c3d;
+}
+button {
+  cursor: pointer;
+  top: 210px;
+  left: 20px;
+  width: 200px;
+  height: 45px;
+  position: absolute;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+button:hover {
+  top: 200px;
+  transition-delay: 0.2s;
+}
+.card-temp {
+  background-color: #353334;
+}
+.card-load {
+  background-color: #201e1f;
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #d28f8b;
+}
+.value {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.back,
+.forward {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #ecb9b8;
+}
+.back:hover,
+.forward:hover {
+  background-color: #f0d0cf;
+}
+.back img,
+.forward img {
+  width: 20px;
+}
